@@ -1,0 +1,133 @@
+body{
+  font-family: 'Futura-Bold', arial;
+}
+
+#logo{
+  float: left;
+  width:  55px;
+  height: 70px;
+  margin-top: -4px;
+  margin-left: 40px;
+ 
+}
+#contact{
+  margin-top: 25px;
+  margin-left: 312px;
+  width: 150px;
+  height: 45px;
+  padding: 0 auto;
+  font-size: 12px;
+ 
+}
+P{
+  line-height:0.3em;
+}
+li{
+  list-style: none;
+}
+h2{
+  font-size: 14px ;
+}
+.side{
+
+  font-size: 30px;
+  height: 400px;
+  width: 229px;
+  margin-top: 140px;
+  line-height: 2.3em;
+  display: block;
+  margin-left: 40px; 
+}
+a {
+    display: inline-block;
+    color:black;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+.posters a::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: 0.4s;
+}
+.posters a:hover:before {
+  width: 100%;
+}
+.books  a::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: 0.4s;
+}
+.books a:hover:before {
+  width: 100%;
+}
+.phtography  a::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: 0.6s;
+}
+.phtography a:hover:before {
+  width: 100%;
+}
+.other a::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: 0.4s;
+}
+.other a:hover:before {
+  width: 100%;
+}
+.info a::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: 0.4s;
+}
+.info a:hover:before {
+  width: 100%;
+}
+.copyr {
+  margin-top: 15%;
+  margin-left: 40px;
+}
+
+
+@media only screen and (max-width:500px){
+  #contact{
+
+    margin-left: 182px;
+
+  }
+}
+@media only screen and (max-width:360px){
+  #contact{
+
+    margin-left: 152px;
+
+  }
+}

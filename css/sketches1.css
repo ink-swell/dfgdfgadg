@@ -1,0 +1,454 @@
+body{
+    font-family: 'Futura-Bold', arial;
+    margin: 0;
+  }
+  #logo{
+    float: left;
+    width:  55px;
+    height: 70px;
+    margin-top: -4px;
+    margin-left: 40px;  
+  }
+  #contact{
+    margin-top: 25px;
+    margin-left: 312px;
+    width: 150px;
+    height: 45px;
+    padding: 0 auto;
+    font-size: 12px;
+  }
+  P{
+    line-height:0.3em;
+  }
+  li{
+    list-style: none;
+  }
+  h2{
+    font-size: 14px ;
+  }
+  
+  a {
+    display: inline-block;
+    color:black;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+  }
+  
+  .menu{
+    width: 416px;
+    height: 30px;
+    margin-top: 57px;
+    margin-left: 80px;
+  }
+  .li1{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: -40px;
+    font-size: 29px;
+    
+  }
+  .li2{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    
+  }
+  .li3{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    
+  }
+  .li4{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    
+  }
+
+  .li2 a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .li2 a:hover:before {
+    width: 88%;
+  }
+  .li3 a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .li3 a:hover:before {
+    width: 93%;
+  }
+  .li4 a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .li4 a:hover:before {
+    width: 100%;
+  }
+  .name {
+    margin-left: 40px;
+    margin-top: 26px;
+  }
+  .main {
+    width: 94%;
+    margin-left: 100px;
+    margin-top: 33px;
+    
+  }
+  .container {
+    float: left;
+    width: 49%;
+    margin-left: 10px;
+  }
+  .container ul li {
+    list-style: none;
+    float: left;
+    width: 21%;
+    height: auto;
+    margin: -12px 100px 5px -40px;
+    
+  }
+  .container ul li img{
+    max-width: 120%;
+  }
+
+  .mem {
+    width: 50%;
+    float: left;
+    position: relative;
+    
+  }
+  .arrow {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: -4%; 
+  }
+  .mem img{
+    max-width: 90%;
+  }
+
+  .responsive {
+  max-width: 100%;
+  height: auto;
+  }
+  .copyr {
+    margin-top: 33px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  @media only screen and (max-width:1340px) {
+    .container {
+    float: left;
+    width: 85%;
+    margin-left: 100px;  
+  }
+  
+  
+
+  .container ul li {
+    list-style: none;
+    float: left;
+    width: 22%;
+    height: auto;
+    margin: -12px 65px 5px 5px;
+  }
+  .container ul li img{
+    max-width: 100%;
+  }
+
+  .mem {
+    width: 90%;
+    float: left;
+    margin-left: 100px; 
+  }
+  .arrow {
+    top: 110%;
+    left: -7%; 
+  }
+}
+  
+
+ @media only screen and (max-width:900px) {
+    .main {
+    width: 102%;
+    margin-left: -10px;
+    margin-top: 33px;
+
+    }
+    .container {
+    float: left;
+    width: 85%;
+    
+    }
+
+  .container ul li {
+    width: 19%;
+    margin: -12px 65px 5px 5px;
+  }
+  .container ul li img{
+    max-width: 100%;
+  }
+
+  .mem {
+    width: 80%;
+    float: left;
+
+  }
+
+  }
+  @media only screen and (max-width:690px) {
+    .container ul li {
+      list-style: none;
+      float: left;
+      width: 49%;
+      height: auto;
+      margin: -12px 65px 20px 90px;
+    }
+    .mem img{
+      max-width: 100%;
+    }
+    .arrow {
+      top: 310%;
+      left: -7%; 
+    }
+
+  }
+ 
+
+  @media only screen and (max-width:620px) {
+    .main {
+    width: 95%;
+    border-radius: 2px solid black;
+    margin-left: -10px;
+    margin-top: 33px;
+
+  }
+    .container {
+    float: left;
+    width: 85%;
+    margin-top: 30px;
+
+  }
+
+  .container ul li {
+    list-style: none;;
+    float: left;
+    width: 49%;
+    height: auto;
+    margin: -12px 65px 20px 90px;
+  }
+  .container ul li img{
+    max-width: 100%;
+  }
+
+  .mem {
+    width: 80%;
+    float: left;
+
+  }
+ 
+  }
+   @media only screen and (max-width:555px){
+    .menu{
+        width: 376px;
+        height: 25px;
+      }
+      .li1{
+
+        font-size: 24px;
+        
+        
+      }
+      .li2{
+       
+        font-size: 15px;
+        
+      }
+      .li3{
+       
+        font-size: 15px;
+        
+      }
+      .li4{
+        font-size: 15px;
+        
+      }   
+   }
+  @media only screen and (max-width:480px) {
+    .main {
+    width: 95%;
+    margin-left: -10px;
+    margin-top: 33px;
+
+  }
+    .container {
+    float: left;
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .container ul li {
+    list-style: none;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: -32px 65px 50px 40px;
+  }
+  .container ul li img{
+    max-width: 100%;
+  }
+
+  .mem {
+    width: 80%;
+    float: left;
+    margin-left: 40px;
+
+   }  
+    #contact{
+    margin-top: 27px;
+    margin-left: 182px;
+    width: 150px;
+    height: 45px;
+    padding: 0 auto;
+    font-size: 12px;
+    }
+      .menu{
+      width: 335px;
+      height: 30px;
+      margin-top: 57px;
+      margin-left: 80px;
+      }
+     .li1{
+
+        font-size: 20px;
+        
+        
+      }
+      .li2{
+       
+        font-size: 12px;
+        
+      }
+      .li3{
+       
+        font-size: 12px;
+        
+      }
+      .li4{
+        font-size: 12px;
+        
+      } 
+      .copyr {
+        margin-top: 10px;
+      }
+    }
+    @media only screen and (max-width:435px){
+      .menu{
+        width: 255px;
+        height: 30px;
+        margin-top: 57px;
+        margin-left: 80px;
+      }
+      .li1{
+  
+        font-size: 17px;
+        
+        
+      }
+      .li2{
+       
+        font-size: 9px;
+        
+      }
+      .li3{
+       
+        font-size: 9px;
+        
+      }
+      .li4{
+        font-size: 9px;
+        
+      }
+      #contact{
+        margin-top: 27px;
+        margin-left: 182px;
+        width: 134px;
+        height: 45px;
+        padding: 0 auto;
+        font-size: 11px;
+      }
+    }
+   @media only screen and (max-width:388px){
+     
+     .container {
+      margin-left: 40px;
+     }
+     
+      .menu{
+        width: 215px;
+        height: 30px;
+        margin-top: 57px;
+        margin-left: 80px;
+     
+      }
+      .li1{
+
+        font-size: 17px; 
+      }
+      .li2{
+       
+        font-size: 9px;
+        
+      }
+      .li3{
+       
+        font-size: 9px;
+        
+      }
+      .li4{
+        font-size: 9px;
+        
+      } 
+      #contact{
+        margin-top: 27px;
+        margin-left: 182px;
+        width: 124px;
+        height: 45px;
+        padding: 0 auto;
+        font-size: 11px;
+      }
+      .copyr {
+        float: left;
+        margin-top: 0px;
+        margin-left: 40px;
+      } 
+     }   
+  

@@ -1,0 +1,199 @@
+body{
+    font-family: 'Futura-Bold', arial;
+    margin: 0;
+  }
+ #logo{
+    float: left;
+    width:  55px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 40px;  
+  }
+#contact{
+    margin-top: 27px;
+    margin-left: 312px;
+    width: 150px;
+    height: 45px;
+    padding: 0 auto;
+    font-size: 12px;
+  }
+ P{
+    line-height:0.3em;
+  }
+ li{
+    list-style: none;
+  }
+h2{
+    font-size: 14px ;
+  }
+
+a {
+    display: inline-block;
+    color:black;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+
+  .menu{
+    width: 676px;
+    height: 30px;
+    margin-top: 57px;
+    margin-left: 40px;
+  }
+  .li1{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: -40px;
+    font-size: 29px;
+    
+  }
+  .li2{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    
+  }
+  .li3{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    
+  }
+  .li4{
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    
+  }
+  .li1 a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .li1 a:hover:before {
+    width: 94%;
+  }
+  .li2 a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .li2 a:hover:before {
+    width: 86%;
+  }
+  .li3 a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .li3 a:hover:before {
+    width: 83%;
+  }
+  .li4 a::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .li4 a:hover:before {
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+    margin-top: 70px;
+    margin-left: -30px;
+    background-color: saddlebrown;
+  }
+  .container ul li {
+    list-style: none;
+    float: left;
+    width: 5.3%;
+    /*margin:1% 1% 15px 1%; */
+  }
+  .container ul li img{
+    max-width: 100%;
+  }
+  .container ul li img{
+    max-width: 100%;
+  }
+  .li7{
+    height: 100px;
+  }
+  
+  
+  @media screen and  (max-width: 1200px){
+    .container ul li{
+      width: 51%;
+      margin-left: 50px;
+    }
+    .li1{
+      margin-left: -40px;
+      font-size: 19px;
+      
+    }
+    .li2{
+      font-size: 15px;
+      margin-left: 0px;
+      
+    }
+    .li3{
+      display: inline-block;
+      color: black;
+      position: relative;
+      margin-left: 0px;
+      font-size: 15px;
+      
+    }
+    .li4{
+      display: inline-block;
+      color: black;
+      position: relative;
+      margin-left: 0px;
+      font-size: 15px;
+      
+    }
+  }
+  @media screen and (min-height: 920px) and (max-width: 1200px){
+    .container ul li{
+      width: 21%;
+      padding: 10px;
+    }
+  
+  }
+  @media screen and (min-height: 919px) and (max-width: 780px){
+    .container ul li{
+      width: 29.3333%;
+      padding: 10px;
+    }    
+  }
+  @media screen and (min-height: 779px) and (max-width: 480px){
+    .container ul li{
+      width: 46%;
+      padding: 10px;
+    }
+  }
